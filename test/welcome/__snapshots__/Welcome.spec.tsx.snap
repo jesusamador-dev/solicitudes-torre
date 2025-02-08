@@ -1,0 +1,105 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Welcome Skeleton test is testing a sample skeleton. 1`] = `
+Array [
+  <span
+    aria-busy="true"
+    aria-live="polite"
+    className=""
+  >
+    <span
+      className="AurumSkeleton"
+      style={
+        Object {
+          "borderRadius": "0%",
+          "height": "20px",
+          "width": "100%",
+        }
+      }
+    >
+      ‌
+    </span>
+    <br />
+  </span>,
+  <span
+    aria-busy="true"
+    aria-live="polite"
+    className="a-class"
+  >
+    <span
+      className="AurumSkeleton"
+      style={
+        Object {
+          "borderRadius": "12px",
+          "height": "10px",
+          "width": "10px",
+        }
+      }
+    >
+      ‌
+    </span>
+    <br />
+  </span>,
+  <span
+    aria-busy="true"
+    aria-live="polite"
+    className="a-class"
+  >
+    <span
+      className="AurumSkeleton"
+      style={
+        Object {
+          "borderRadius": "12px",
+          "height": "100px",
+          "width": "100px",
+        }
+      }
+    >
+      ‌
+    </span>
+    <br />
+  </span>,
+  <span
+    aria-busy="true"
+    aria-live="polite"
+    className="a-class"
+  >
+    <span
+      className="AurumSkeleton"
+      style={
+        Object {
+          "borderRadius": "0%",
+          "height": "10px",
+          "width": "10%",
+        }
+      }
+    >
+      ‌
+    </span>
+    <br />
+  </span>,
+  <span
+    aria-busy="true"
+    aria-live="polite"
+    className="a-class"
+  >
+    <span
+      className="AurumSkeleton"
+      style={
+        Object {
+          "borderRadius": "45px",
+          "height": "10px",
+          "width": "10%",
+        }
+      }
+    >
+      ‌
+    </span>
+    <br />
+  </span>,
+]
+`;
+
+exports[`Welcome safeview test is testing a sample safeview. 1`] = `"loading"`;
+
+exports[`Welcome test is testing a sample Welcome. 1`] = `null`;

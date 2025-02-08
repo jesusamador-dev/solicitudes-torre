@@ -1,0 +1,31 @@
+body {
+  /* background-color: #282c34; */
+  background-color: #ffffff !important;
+  display: flex !important;
+  flex-direction: row !important;
+  justify-content: center !important;
+  align-items: center !important;
+  height: 95vh;
+}
+
+.mf-name {
+  cursor: pointer;
+  padding: 20px;
+  border-radius: 5px;
+  font-size: 30pt;
+  color: #ffffff;
+  /* box-shadow: 0 3px 5px -1px rgba(0, 0, 0, 0.2), 0 5px 8px 0 rgba(0, 0, 0, 0.14),
+  0 1px 14px 0 rgba(0, 0, 0, 0.12) !important; */
+}
+
+.mf-bottom {
+  position: absolute;
+  bottom: 0px;
+  font-size: 8px;
+  right: 0px;
+}
+
+.mf-bottom::before {
+  color: #ffffff;
+  content: 'SphintLith';
+}

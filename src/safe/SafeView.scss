@@ -1,0 +1,11 @@
+[data-theme="light"] {
+  --kt-global-list-menus-bg: #ffffff
+}
+[data-theme="dark"] {
+  --kt-global-list-menus-bg: #1e1e2d;
+}
+.LoginSafeView{
+  font-family: var(--fontMedium) ;
+  background-color: var(--kt-global-list-menus-bg);
+  font-size: 15px;
+}

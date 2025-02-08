@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testExecutions version="1">
+  <file path="E:\Users\1133793\Documents\microfronts\aws\mfe-solicitudes-torrecontrol\test\domain\repositories\DashboardRepository.spec.tsx">
+  </file>
+  <file path="E:\Users\1133793\Documents\microfronts\aws\mfe-solicitudes-torrecontrol\test\domain\services\DashboardService.spec.tsx">
+  </file>
+  <file path="E:\Users\1133793\Documents\microfronts\aws\mfe-solicitudes-torrecontrol\test\welcome\Welcome.spec.tsx">
+    <testCase name="Welcome test is testing a sample Welcome." duration="265"/>
+    <testCase name="Welcome safeview test is testing a sample safeview." duration="59"/>
+    <testCase name="Welcome safeview test 2 is testing a sample safeview class." duration="2"/>
+    <testCase name="Welcome Skeleton test is testing a sample skeleton." duration="9"/>
+  </file>
+  <file path="E:\Users\1133793\Documents\microfronts\aws\mfe-solicitudes-torrecontrol\test\router\router.spec.tsx">
+    <testCase name="RouterSolicitudes should render the Dashboard component when the path is &quot;/&quot;" duration="53"/>
+    <testCase name="RouterSolicitudes should render the Dashboard component when the path is &quot;/error&quot;" duration="198">
+      <failure message="Error: [MemoryRouter] is not a &lt;Route&gt; component. All component children of &lt;Routes&gt; must be a &lt;Route&gt; or &lt;React.Fragment&gt;"><![CDATA[Error: [MemoryRouter] is not a <Route> component. All component children of <Routes> must be a <Route> or <React.Fragment>
+    at Object.invariant [as UNSAFE_invariant] (E:\Users\1133793\Documents\microfronts\aws\mfe-solicitudes-torrecontrol\node_modules\@remix-run\router\history.ts:494:11)
+    at invariant (E:\Users\1133793\Documents\microfronts\aws\mfe-solicitudes-torrecontrol\node_modules\react-router\lib\components.tsx:687:5)
+    at E:\Users\1133793\Documents\microfronts\aws\mfe-solicitudes-torrecontrol\node_modules\react\cjs\react.development.js:1104:17
+    at E:\Users\1133793\Documents\microfronts\aws\mfe-solicitudes-torrecontrol\node_modules\react\cjs\react.development.js:1067:17
+    at mapIntoArray (E:\Users\1133793\Documents\microfronts\aws\mfe-solicitudes-torrecontrol\node_modules\react\cjs\react.development.js:964:23)
+    at mapChildren (E:\Users\1133793\Documents\microfronts\aws\mfe-solicitudes-torrecontrol\node_modules\react\cjs\react.development.js:1066:3)
+    at Object.forEachChildren [as forEach] (E:\Users\1133793\Documents\microfronts\aws\mfe-solicitudes-torrecontrol\node_modules\react\cjs\react.development.js:1103:3)
+    at forEach (E:\Users\1133793\Documents\microfronts\aws\mfe-solicitudes-torrecontrol\node_modules\react-router\lib\components.tsx:669:18)
+    at createRoutesFromChildren (E:\Users\1133793\Documents\microfronts\aws\mfe-solicitudes-torrecontrol\node_modules\react-router\lib\components.tsx:507:20)
+    at renderWithHooks (E:\Users\1133793\Documents\microfronts\aws\mfe-solicitudes-torrecontrol\node_modules\react-dom\cjs\react-dom.development.js:14985:18)
+    at mountIndeterminateComponent (E:\Users\1133793\Documents\microfronts\aws\mfe-solicitudes-torrecontrol\node_modules\react-dom\cjs\react-dom.development.js:17811:13)
+    at beginWork (E:\Users\1133793\Documents\microfronts\aws\mfe-solicitudes-torrecontrol\node_modules\react-dom\cjs\react-dom.development.js:19049:16)
+    at HTMLUnknownElement.callCallback (E:\Users\1133793\Documents\microfronts\aws\mfe-solicitudes-torrecontrol\node_modules\react-dom\cjs\react-dom.development.js:3945:14)
+    at HTMLUnknownElement.callTheUserObjectsOperation (E:\Users\1133793\Documents\microfronts\aws\mfe-solicitudes-torrecontrol\node_modules\jsdom\lib\jsdom\living\generated\EventListener.js:26:30)
+    at innerInvokeEventListeners (E:\Users\1133793\Documents\microfronts\aws\mfe-solicitudes-torrecontrol\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:340:25)
+    at invokeEventListeners (E:\Users\1133793\Documents\microfronts\aws\mfe-solicitudes-torrecontrol\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:276:3)
+    at HTMLUnknownElementImpl._dispatch (E:\Users\1133793\Documents\microfronts\aws\mfe-solicitudes-torrecontrol\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:223:9)
+    at HTMLUnknownElementImpl.dispatchEvent (E:\Users\1133793\Documents\microfronts\aws\mfe-solicitudes-torrecontrol\node_modules\jsdom\lib\jsdom\living\events\EventTarget-impl.js:94:17)
+    at HTMLUnknownElement.dispatchEvent (E:\Users\1133793\Documents\microfronts\aws\mfe-solicitudes-torrecontrol\node_modules\jsdom\lib\jsdom\living\generated\EventTarget.js:241:34)
+    at Object.invokeGuardedCallbackDev (E:\Users\1133793\Documents\microfronts\aws\mfe-solicitudes-torrecontrol\node_modules\react-dom\cjs\react-dom.development.js:3994:16)
+    at invokeGuardedCallback (E:\Users\1133793\Documents\microfronts\aws\mfe-solicitudes-torrecontrol\node_modules\react-dom\cjs\react-dom.development.js:4056:31)
+    at beginWork$1 (E:\Users\1133793\Documents\microfronts\aws\mfe-solicitudes-torrecontrol\node_modules\react-dom\cjs\react-dom.development.js:23964:7)
+    at performUnitOfWork (E:\Users\1133793\Documents\microfronts\aws\mfe-solicitudes-torrecontrol\node_modules\react-dom\cjs\react-dom.development.js:22779:12)
+    at workLoopSync (E:\Users\1133793\Documents\microfronts\aws\mfe-solicitudes-torrecontrol\node_modules\react-dom\cjs\react-dom.development.js:22707:5)
+    at renderRootSync (E:\Users\1133793\Documents\microfronts\aws\mfe-solicitudes-torrecontrol\node_modules\react-dom\cjs\react-dom.development.js:22670:7)
+    at performSyncWorkOnRoot (E:\Users\1133793\Documents\microfronts\aws\mfe-solicitudes-torrecontrol\node_modules\react-dom\cjs\react-dom.development.js:22293:18)
+    at scheduleUpdateOnFiber (E:\Users\1133793\Documents\microfronts\aws\mfe-solicitudes-torrecontrol\node_modules\react-dom\cjs\react-dom.development.js:21881:7)
+    at updateContainer (E:\Users\1133793\Documents\microfronts\aws\mfe-solicitudes-torrecontrol\node_modules\react-dom\cjs\react-dom.development.js:25482:3)
+    at E:\Users\1133793\Documents\microfronts\aws\mfe-solicitudes-torrecontrol\node_modules\react-dom\cjs\react-dom.development.js:26021:7
+    at unbatchedUpdates (E:\Users\1133793\Documents\microfronts\aws\mfe-solicitudes-torrecontrol\node_modules\react-dom\cjs\react-dom.development.js:22431:12)
+    at legacyRenderSubtreeIntoContainer (E:\Users\1133793\Documents\microfronts\aws\mfe-solicitudes-torrecontrol\node_modules\react-dom\cjs\react-dom.development.js:26020:5)
+    at Object.render (E:\Users\1133793\Documents\microfronts\aws\mfe-solicitudes-torrecontrol\node_modules\react-dom\cjs\react-dom.development.js:26103:10)
+    at E:\Users\1133793\Documents\microfronts\aws\mfe-solicitudes-torrecontrol\node_modules\@testing-library\react\dist\pure.js:101:25
+    at batchedUpdates$1 (E:\Users\1133793\Documents\microfronts\aws\mfe-solicitudes-torrecontrol\node_modules\react-dom\cjs\react-dom.development.js:22380:12)
+    at act (E:\Users\1133793\Documents\microfronts\aws\mfe-solicitudes-torrecontrol\node_modules\react-dom\cjs\react-dom-test-utils.development.js:1042:14)
+    at render (E:\Users\1133793\Documents\microfronts\aws\mfe-solicitudes-torrecontrol\node_modules\@testing-library\react\dist\pure.js:97:26)
+    at Object.<anonymous> (E:\Users\1133793\Documents\microfronts\aws\mfe-solicitudes-torrecontrol\test\router\router.spec.tsx:71:44)
+    at Promise.then.completed (E:\Users\1133793\Documents\microfronts\aws\mfe-solicitudes-torrecontrol\node_modules\jest-circus\build\utils.js:333:28)
+    at new Promise (<anonymous>)
+    at callAsyncCircusFn (E:\Users\1133793\Documents\microfronts\aws\mfe-solicitudes-torrecontrol\node_modules\jest-circus\build\utils.js:259:10)
+    at _callCircusTest (E:\Users\1133793\Documents\microfronts\aws\mfe-solicitudes-torrecontrol\node_modules\jest-circus\build\run.js:277:40)
+    at _runTest (E:\Users\1133793\Documents\microfronts\aws\mfe-solicitudes-torrecontrol\node_modules\jest-circus\build\run.js:209:3)
+    at _runTestsForDescribeBlock (E:\Users\1133793\Documents\microfronts\aws\mfe-solicitudes-torrecontrol\node_modules\jest-circus\build\run.js:97:9)
+    at _runTestsForDescribeBlock (E:\Users\1133793\Documents\microfronts\aws\mfe-solicitudes-torrecontrol\node_modules\jest-circus\build\run.js:91:9)
+    at run (E:\Users\1133793\Documents\microfronts\aws\mfe-solicitudes-torrecontrol\node_modules\jest-circus\build\run.js:31:3)
+    at runAndTransformResultsToJestFormat (E:\Users\1133793\Documents\microfronts\aws\mfe-solicitudes-torrecontrol\node_modules\jest-circus\build\legacy-code-todo-rewrite\jestAdapterInit.js:135:21)
+    at jestAdapter (E:\Users\1133793\Documents\microfronts\aws\mfe-solicitudes-torrecontrol\node_modules\jest-circus\build\legacy-code-todo-rewrite\jestAdapter.js:92:19)
+    at runTestInternal (E:\Users\1133793\Documents\microfronts\aws\mfe-solicitudes-torrecontrol\node_modules\jest-runner\build\runTest.js:411:16)
+    at runTest (E:\Users\1133793\Documents\microfronts\aws\mfe-solicitudes-torrecontrol\node_modules\jest-runner\build\runTest.js:499:34)
+    at Object.worker (E:\Users\1133793\Documents\microfronts\aws\mfe-solicitudes-torrecontrol\node_modules\jest-runner\build\testWorker.js:133:12)]]></failure>
+    </testCase>
+  </file>
+  <file path="E:\Users\1133793\Documents\microfronts\aws\mfe-solicitudes-torrecontrol\test\pages\Dashboard.spec.tsx">
+    <testCase name="Dashboard should render the dashboard heading" duration="3047">
+      <failure message="Error: Unable to find an element by: [data-testid=&quot;ds-card-total&quot;]"><![CDATA[Error: Unable to find an element by: [data-testid="ds-card-total"]
+
+<body>
+  <div>
+    <div
+      class="row g-5 gx-xl-10 mb-5 mb-xl-10"
+    >
+      <div
+        height="50"
+      />
+      <div
+        class="col-md-7 col-lg-7 col-xl-7 col-xxl-7"
+      >
+        <div
+          class="row"
+        >
+          <div
+            class="col-md-8 col-lg-8 col-xl-8 col-xxl-8"
+          />
+          <div
+            class="col-md-4 col-lg-4 col-xl-4 col-xxl-4"
+          />
+        </div>
+      </div>
+      <div
+        class="col-md-5 col-lg-5 col-xl-5 col-xxl-5"
+      />
+    </div>
+  </div>
+</body>
+    at waitForWrapper (E:\Users\1133793\Documents\microfronts\aws\mfe-solicitudes-torrecontrol\node_modules\@testing-library\react\node_modules\@testing-library\dom\dist\wait-for.js:173:27)
+    at _callee$ (E:\Users\1133793\Documents\microfronts\aws\mfe-solicitudes-torrecontrol\test\pages\Dashboard.spec.tsx:76:18)
+    at tryCatch (E:\Users\1133793\Documents\microfronts\aws\mfe-solicitudes-torrecontrol\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (E:\Users\1133793\Documents\microfronts\aws\mfe-solicitudes-torrecontrol\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (E:\Users\1133793\Documents\microfronts\aws\mfe-solicitudes-torrecontrol\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (E:\Users\1133793\Documents\microfronts\aws\mfe-solicitudes-torrecontrol\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:17)
+    at _next (E:\Users\1133793\Documents\microfronts\aws\mfe-solicitudes-torrecontrol\node_modules\@babel\runtime\helpers\asyncToGenerator.js:17:9)
+    at E:\Users\1133793\Documents\microfronts\aws\mfe-solicitudes-torrecontrol\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (E:\Users\1133793\Documents\microfronts\aws\mfe-solicitudes-torrecontrol\node_modules\@babel\runtime\helpers\asyncToGenerator.js:14:12)
+    at Promise.then.completed (E:\Users\1133793\Documents\microfronts\aws\mfe-solicitudes-torrecontrol\node_modules\jest-circus\build\utils.js:333:28)
+    at new Promise (<anonymous>)
+    at callAsyncCircusFn (E:\Users\1133793\Documents\microfronts\aws\mfe-solicitudes-torrecontrol\node_modules\jest-circus\build\utils.js:259:10)
+    at _callCircusTest (E:\Users\1133793\Documents\microfronts\aws\mfe-solicitudes-torrecontrol\node_modules\jest-circus\build\run.js:277:40)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at _runTest (E:\Users\1133793\Documents\microfronts\aws\mfe-solicitudes-torrecontrol\node_modules\jest-circus\build\run.js:209:3)
+    at _runTestsForDescribeBlock (E:\Users\1133793\Documents\microfronts\aws\mfe-solicitudes-torrecontrol\node_modules\jest-circus\build\run.js:97:9)
+    at _runTestsForDescribeBlock (E:\Users\1133793\Documents\microfronts\aws\mfe-solicitudes-torrecontrol\node_modules\jest-circus\build\run.js:91:9)
+    at run (E:\Users\1133793\Documents\microfronts\aws\mfe-solicitudes-torrecontrol\node_modules\jest-circus\build\run.js:31:3)
+    at runAndTransformResultsToJestFormat (E:\Users\1133793\Documents\microfronts\aws\mfe-solicitudes-torrecontrol\node_modules\jest-circus\build\legacy-code-todo-rewrite\jestAdapterInit.js:135:21)
+    at jestAdapter (E:\Users\1133793\Documents\microfronts\aws\mfe-solicitudes-torrecontrol\node_modules\jest-circus\build\legacy-code-todo-rewrite\jestAdapter.js:92:19)
+    at runTestInternal (E:\Users\1133793\Documents\microfronts\aws\mfe-solicitudes-torrecontrol\node_modules\jest-runner\build\runTest.js:411:16)
+    at runTest (E:\Users\1133793\Documents\microfronts\aws\mfe-solicitudes-torrecontrol\node_modules\jest-runner\build\runTest.js:499:34)
+    at Object.worker (E:\Users\1133793\Documents\microfronts\aws\mfe-solicitudes-torrecontrol\node_modules\jest-runner\build\testWorker.js:133:12)]]></failure>
+    </testCase>
+    <testCase name="Dashboard should set the data loaded false with action by default" duration="2"/>
+    <testCase name="Dashboard should set the data correctly" duration="2"/>
+    <testCase name="Dashboard should set the data state " duration="1"/>
+  </file>
+</testExecutions>
