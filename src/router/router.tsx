@@ -15,8 +15,8 @@ const RouterSolicitudes: React.FC = () => {
         <Route element={<MainLayout />}>
             <Route path='/' element={<Dashboard/>} />
             {/* <Route path='/reencauces' element={<Reencauces/>}/> */}
+           <Route path="/reencauces/*" element={<RouterReencauces />} />
         </Route>
-        <RouterReencauces />
         <Route path='/error' element={<ErrorLayout/>}></Route>
       </Routes>
     </Suspense>
