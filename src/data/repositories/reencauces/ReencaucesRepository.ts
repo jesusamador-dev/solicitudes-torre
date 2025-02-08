@@ -19,7 +19,7 @@ export const encodeBase64 = (data: any): string => {
   return btoa(data);
 };
 
-const proxyUrl = `${process.env.REACT_APP_MIDDLEWARE}cobranza-credito/investigacion-cobranza/ffm/lbd-middleware-seguridadffm/torrecontrol`;
+const proxyUrl = `https://proxy-reverse-production.up.railway.app/torre-control/cobranza-credito/investigacion-cobranza/ffm/lbd-middleware-seguridadffm/torrecontrol`;
 const URL = 'https://674f92d0bb559617b26f8b57.mockapi.io/prete';
 
 // async function unathorized()  {
