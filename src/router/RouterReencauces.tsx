@@ -14,7 +14,6 @@ const RouterReencauces: React.FC = () => {
   return (
     <Suspense fallback={<DSSpinner></DSSpinner>}>
       <Routes>
-        <Route element={<MainLayout />}>
           <Route element={<InvestigationLayout />}>
             <Route path='/' element={<Reencauces />} />
             <Route path='/con-oferta' element={"con-oferta"} />
@@ -34,9 +33,6 @@ const RouterReencauces: React.FC = () => {
             {/* territorio-detalle es para los elementos de DSTopsWithTabs */}
             <Route path='/reencauzadas/territorio-detalle/:territorioId' element={<ReencauceByTerritoryDetail />} />
             <Route path='/solicitudes/reencauces/reencauzadas/territorio-detalle' element={"Hola mundo!"} />
-
-
-          </Route>
         </Route>
       </Routes>
     </Suspense>
