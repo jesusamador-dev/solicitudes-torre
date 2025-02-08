@@ -68,7 +68,7 @@ export const processParams = (authToken: string, useNumeroEmpleado: boolean,  fi
   return encodeBase64(paramsWithOutSlashes);
 }
 
-const proxyUrl =(`${process.env.REACT_APP_MIDDLEWARE}cobranza-credito/investigacion-cobranza/ffm/lbd-middleware-seguridadffm/torrecontrol`);
+const proxyUrl =(`https://proxy-reverse-production.up.railway.app/torre-control/cobranza-credito/investigacion-cobranza/ffm/lbd-middleware-seguridadffm/torrecontrol`);
 
 function unathorized() {
   localStorage.removeItem('authStore');
