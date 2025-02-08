@@ -38,7 +38,6 @@ const RouterReencauces: React.FC = () => {
 
           </Route>
         </Route>
-        <Route path='/error' element={<ErrorLayout />}></Route>
       </Routes>
     </Suspense>
   );
